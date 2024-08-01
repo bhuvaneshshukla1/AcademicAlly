@@ -1,0 +1,100 @@
+/* Faculty.css */
+.header {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+}
+
+.left-pane {
+    width: 50%; /* Or adjust to your liking */
+    padding: 10px;
+    align-items: center;
+}
+
+.lt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.logout {
+    height: 70%;
+    width: 30%;
+}
+
+.right-pane {
+    width: 50%; /* Or adjust to your liking */
+    padding: 10px;
+}
+
+.scroll {
+    max-height: 400px; /* Or adjust to your liking */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.scroll-feedback {
+    max-height: 400px; /* Or adjust to your liking */
+    overflow-y: auto; /* Enable vertical scrolling */
+    font-family: 'CustomFont2', sans-serif;
+    color: var(--orange-secondary);
+}
+
+.diff {
+    font-family: 'CustomFont2', sans-serif;
+    color: var(--orange-secondary);
+    padding-bottom: 20px;
+}
+
+.create-assignment {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.grading_button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.gb{
+    width: 50%;
+    background-color: var(--orange-secondary);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+  justify-content: center;
+  align-items: center;
+  width: 190px;
+  height: 254px;
+  border-radius: 30px;
+  background: #142b4d;
+  box-shadow: rgba(18, 18, 29, 0.25) 20px 30px 50px 20px inset, rgba(0, 0, 0, 0.3) 0px 18px 26px -18px inset;
+}
+
+.plus-sign {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 150px;
+    color: white;
+}
+
+.difficulty {
+    color: red;
+}

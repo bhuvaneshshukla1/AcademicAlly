@@ -1,0 +1,70 @@
+/* QuestionPage Styles */
+.container { /* Assuming this wraps your h1 and qa-container */
+    position: relative;
+    width: 100%;
+}
+
+.question-container {
+    margin-bottom: 20px; /* Space between each question */
+  }
+  
+  .question-text {
+    font-family: 'CustomFont2', sans-serif;
+    color: white;
+    font-size: 18px; /* Larger text for visibility */
+    margin-bottom: 10px; /* Space between the question and its options */
+  }
+  
+  .qa-container {
+    position: relative;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+  .options-container {
+    margin-left: 20px; /* Indent options for clarity */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-family: 'CustomFont2', sans-serif;
+
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px; /* Space between radio button/checkbox and label */
+  }
+  
+  textarea {
+    width: 100%; /* Full width of its container */
+    margin-top: 10px; /* Space above the textarea */
+  }
+  
+  .q-title {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    z-index: 1;
+}
+
+
+    .q-title > .qa-container {
+        padding-bottom: 20px;
+    }
+
+  .submit-button {
+    background-color: var(--orange-secondary); /* A green background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .submit-button:hover {
+    background-color: var(--orange-secondary); /* Darker green on hover */
+  }
+  

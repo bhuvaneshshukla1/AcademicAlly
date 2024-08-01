@@ -1,0 +1,87 @@
+/* Root colors for consistency and easy theming */
+:root {
+    --blue-primary: #13294B; /* A deep, calming blue */
+    --orange-secondary: #E84A27; /* A bright, inviting orange */
+    --background-color: #edf6f9; /* A light, soothing blue for the background */
+    --text-color: #073b4c; /* A dark blue shade for text that ensures good readability */
+    --input-background: #ffffff; /* Pure white for input fields to ensure visibility */
+    --button-hover: #ff2f00; /* A darker shade of blue for button hover states */
+  }
+  
+  @font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/stf-js-elevated-re-work.ttf') format('truetype'); 
+  }
+
+  @font-face {
+    font-family: 'CustomFont2';
+    src: url('fonts/taxon.ttf') format('truetype'); 
+  }
+  
+  body {
+    background-color: var(--blue-primary);
+  }
+  
+  .App {
+    position: relative;
+    max-width: auto;
+    margin: 0 auto;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 2px solid var(--blue-primary);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: var(--input-background);
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .page-title {
+    font-family: 'CustomFont', sans-serif; 
+    font-size: 100px;
+    color: var(--orange-secondary);
+    line-height: 0.3;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login_button {
+    width: 50%;
+    background-color: var(--orange-secondary);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  button:hover {
+    background-color: var(--button-hover);
+  }
+  
+  form {
+    background: var(--blue-primary);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
