@@ -2,3 +2,5 @@ BEvenv/
 node_modules/
 keys.yml
 config.py
+
+.idea
